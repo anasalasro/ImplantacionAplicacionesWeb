@@ -19,9 +19,6 @@ systemctl status mysql.service
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen4.png)  
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen5.png)  
 ### 2.- Vemos que podemos acceder a nuestra base de datos a través de phpmyadmin
-``` ruby 
-k0s install controller --single
-```
 
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen6.png)  
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen7.png) 
