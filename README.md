@@ -8,7 +8,7 @@ proteger un directorio con htacces, certificado con cerbot e instalacion de book
 ```
 ## Índice:
 1. [ LAMP ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/LAMP.md)  
-2. [ htacces ](https://github.com/anasalasro/k0s/blob/main/k0s.md)
+2. [ htacces ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/htaccess.md)
 3. [ Cerbots ](https://github.com/anasalasro/k0s/blob/main/cloud.md)  
 4. [ bookmedik ](https://github.com/anasalasro/k0s/blob/main/prepararServidor.md)
 
