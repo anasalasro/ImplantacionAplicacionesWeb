@@ -7,7 +7,7 @@ En este repositorio encontraréis como instalar la pila LAMP de forma manual y d
 proteger un directorio con htacces, certificado con cerbot e instalacion de bookmedik.
 ```
 ## Índice:
-1. [ LAMP ](https://github.com/anasalasro/k0s/blob/main/introduccion.md)  
+1. [ LAMP ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/LAMP.md)  
 2. [ htacces ](https://github.com/anasalasro/k0s/blob/main/k0s.md)
 3. [ Cerbots ](https://github.com/anasalasro/k0s/blob/main/cloud.md)  
 4. [ bookmedik ](https://github.com/anasalasro/k0s/blob/main/prepararServidor.md)
