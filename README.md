@@ -10,7 +10,7 @@ proteger un directorio con htacces, certificado con cerbot e instalacion de book
 1. [ LAMP ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/LAMP.md)  
 2. [ htacces ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/htaccess.md)
 3. [ Cerbot ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/cerbot.md)  
-4. [ bookmedik ](https://github.com/anasalasro/k0s/blob/main/prepararServidor.md)
+4. [ bookmedik ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/bookmedik.md)
 
 ## Licencia
 
