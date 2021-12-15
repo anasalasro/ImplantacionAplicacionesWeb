@@ -22,8 +22,13 @@ systemctl status mysql.service
 
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen6.png)  
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen7.png) 
+### 3.- LAMP master:
 
-### 3.- Instalamos adminer:
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen15.png) 
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen16.png) 
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen17.png) 
+
+### 4.- Instalamos adminer:
 
 ``` ruby 
 apt install adminer
@@ -31,7 +36,7 @@ apt install adminer
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen8.png) 
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen9.png) 
 
-### 4.- Script LAMP instalación desatendida:
+### 5.- Script LAMP instalación desatendida:
 
 ``` ruby
 !/bin/bash
