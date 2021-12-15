@@ -43,7 +43,6 @@ apt install adminer
 contra=root
 contraphp=root
 
-
 apt-get update
 set -x
 #INSTALAMOS APACHE2
