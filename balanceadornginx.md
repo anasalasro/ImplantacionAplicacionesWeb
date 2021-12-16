@@ -1,4 +1,4 @@
-# Instalación del Servidor Nginx 
+# Balanceador de carga Nginx 
 ### 1.- Instalación de nginx
 Con este comando, descargamos un script y se ejecuta.
 ``` ruby 
