@@ -11,7 +11,7 @@ proteger un directorio con htacces, certificado con cerbot e instalacion de book
 2. [ Htacces ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/htaccess.md)
 3. [ Cerbot ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/cerbot.md)  
 4. [ Bookmedik ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/bookmedik.md)
-5. [ Balanceo de carga ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/bookmedik.md)
+5. [ Balanceo de carga ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/balanceadornginx.md)
 
 ## Licencia
 
