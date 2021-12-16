@@ -4,7 +4,8 @@
 
 ``` ruby
 En este repositorio encontraréis como instalar la pila LAMP de forma manual y desatendida, 
-proteger un directorio con htacces, certificado con cerbot en AWS, instalacion de bookmedik y un balanceador de carga de nginx.
+proteger un directorio con htacces, certificado con cerbot en AWS, instalacion de bookmedik 
+y un balanceador de carga de nginx.
 ```
 ## Índice:
 1. [ LAMP ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/LAMP.md)  
