@@ -4,17 +4,11 @@ Con este comando, descargamos un script y se ejecuta.
 ``` ruby 
 unzip bookmedik-master.zip
 ```
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen1.png)  
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen2.png)  
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen3.png)  
-
 Copiamos el bookmedik a /var/www/html/:
 
 ``` ruby 
 cp -R bookmedik-master /var/www/html/
-```
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen4.png)  
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen5.png)  
+``` 
 ### 2.- Configuramos en sites-enabled:
 ``` ruby 
 /etc/nginx# nano sites-enabled/default.old 
@@ -37,23 +31,40 @@ server {
 
 
 ```
-root@debianAnaSalas:/etc/nginx# systemctl restart nginx.service 
+Reiniciamos
+``` ruby 
+ systemctl restart nginx.service 
+```
+Insytalamos el paquete necesario:
+``` ruby 
+ apt install php-fpm
+```
 
-root@debianAnaSalas:/etc/nginx# apt install php-fpm
+### 3.- Accedemos:
+``` ruby 
+ cd /var/www/html/bookmedik-master/
+ nano index.php 
+```
+
+``` ruby 
+ cd core/controller/
+nano Database.php 
+```
+
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen15.png) 
 
 
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen6.png)  
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen7.png) 
-### 3.- LAMP master:
 
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen15.png) 
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen16.png) 
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen17.png) 
 
-### 4.- Instalamos adminer:
-
+### 4.- Configuramos adminer:
+Nos decargamos:
 ``` ruby 
-/etc/nginx# nano sites-enabled/default.old 
+adminer-4.8.1-mysql.php 
+/var/www/html# cp /home/usuario/Descargas/adminer-4.8.1-mysql.php .
+mv adminer-4.8.1-mysql.php adminer.php
 ```
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen8.png) 
 ![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen9.png) 
