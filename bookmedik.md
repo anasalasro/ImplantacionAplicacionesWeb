@@ -45,19 +45,12 @@ Insytalamos el paquete necesario:
  cd /var/www/html/bookmedik-master/
  nano index.php 
 ```
-
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/confibook.PNG) 
 ``` ruby 
  cd core/controller/
 nano Database.php 
 ```
-
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen15.png) 
-
-
-
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen15.png) 
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen16.png) 
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen17.png) 
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/confibook2.PNG) 
 
 ### 4.- Configuramos adminer:
 Nos decargamos:
@@ -66,5 +59,6 @@ adminer-4.8.1-mysql.php
 /var/www/html# cp /home/usuario/Descargas/adminer-4.8.1-mysql.php .
 mv adminer-4.8.1-mysql.php adminer.php
 ```
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen8.png) 
-![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/Imagen9.png) 
+Comprobamos desde el navegador:
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/bookmedik.PNG)
+
