@@ -11,3 +11,6 @@ root@debianAnaSalas:/etc/tomcat9# nano tomcat-users.xml
 <user username="tomcat" password="s3cret" roles="manager-gui"/>
 ```
 
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/tomcat.PNG) 
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/tomcat1.PNG) 
+![LAMP](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/imagenesgit/tomcat2.PNG) 
